@@ -1,5 +1,8 @@
-0 - Responsive Stage
+Repo for reproducing the PixiJS Examples (found [here](https://pixijs.com/8.x/examples)) with Pixi-React.
 
-Note that the use of a component wapping Application and `onInit` to prevent errors when trying to draw before the application is initialized. 
+To run, go to the directory of your example, and run
 
-The stage automatically resizes using `resizeTo`, referencing the parent div - the square in the center is automatically adjusted to stay in the center of the stage as it moves, using a listener attached to the app.  
+```
+npm install
+npm run dev
+```
