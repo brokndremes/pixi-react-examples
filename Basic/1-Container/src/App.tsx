@@ -5,9 +5,8 @@ import {useCallback, useRef, useState} from 'react'
 
 extend({Container, Graphics,})
 
-// A child component is used so that we can properly use {app} = useApplication
+
 function ChildComponent() {
-    // This draw simply draws a red square - coincidentally, it's the same size as our container
     const square_size = 100;
     const drawCallback = useCallback((graphics: any) => {
         graphics.clear()

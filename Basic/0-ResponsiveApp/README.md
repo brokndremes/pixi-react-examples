@@ -1,3 +1,9 @@
-Simple responsive stage for pixi/react v8-Beta14
+0 - Responsive App
 
-The stage resizes automatically using the resize_to callback on
+Simple responsive stage + container centering for pixi/react v8-Beta14
+
+Note that the use of a component wapping Application and `onInit` to prevent errors when trying to draw before the
+application is initialized.
+
+The stage automatically resizes using `resizeTo`, referencing the parent div - the square in the center is automatically
+adjusted to stay in the center of the stage as it moves, using a listener attached to the app.  
